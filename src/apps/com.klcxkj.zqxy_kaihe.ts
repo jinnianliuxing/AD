@@ -1,6 +1,6 @@
 {
   "key": 0,          
-  "name": "悦享校园广告规则",
+  "name": "悦享校园",
   "rules": [
     {
       "key": 1,      
@@ -53,4 +53,5 @@
       "snapshotUrls": "https://i.gkd.li/i/25935365"
     }
   ]
+
 }
