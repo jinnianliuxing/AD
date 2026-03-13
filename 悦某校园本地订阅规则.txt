@@ -1,0 +1,86 @@
+{
+  key: 21,
+  name: '一键关AD',
+  rules: [
+    {
+      key: 1,
+      action: 'clickNode',
+      matches: [
+        '[vid=\'adv_container_layout\'] > FrameLayout > ImageView[index=1]',
+      ],
+      snapshotUrls: [
+        'https://i.gkd.li/i/25928092',
+      ],
+    },
+    {
+      key: 2,
+      action: 'clickCenter',
+      matches: [
+        '[vid=\'adv_container_layout\'] ImageView[width=33][height=33][visibleToUser=true]',
+      ],
+      snapshotUrls: [
+        'https://i.gkd.li/i/25928209',
+      ],
+    },
+    {
+      key: 4,
+      action: 'clickCenter',
+      matches: [
+        '[id=\'android:id/content\'] ImageView[width=55][height=55][visibleToUser=true]',
+      ],
+      excludeMatches: [
+        '[vid=\'my_account_layout\']',
+      ],
+      actionCd: 1500,
+      actionDelay: 800,
+      snapshotUrls: [
+        'https://i.gkd.li/i/25929002',
+      ],
+    },
+    {
+      key: 5,
+      action: 'clickCenter',
+      matches: [
+        '[vid=\'beizi_interstitial_ad_close_iv\']',
+      ],
+      actionCd: 1500,
+      actionDelay: 800,
+      snapshotUrls: [
+        'https://i.gkd.li/i/25929116',
+      ],
+    },
+    {
+      key: 6,
+      action: 'clickCenter',
+      matches: [
+        '[vid=\'adv_container_layout\'] ImageView[width=32][height=33][visibleToUser=true]',
+      ],
+      actionCd: 1500,
+      snapshotUrls: [
+        'https://i.gkd.li/i/25929445',
+      ],
+    },
+    {
+      key: 7,
+      action: 'clickNode',
+      matches: [
+        '[id=\'android:id/content\'] [desc=\'top_close_button\'][clickable=true]',
+      ],
+      actionCd: 1500,
+      snapshotUrls: [
+        'https://i.gkd.li/i/25931841',
+      ],
+    },
+    {
+      key: 8,
+      action: 'clickCenter',
+      matches: [
+        '[id=\'android:id/content\'] ImageView[width=58][height=58][visibleToUser=true]',
+      ],
+      actionCd: 1500,
+      snapshotUrls: [
+        'https://i.gkd.li/i/25935365',
+      ],
+    },
+  ],
+}
